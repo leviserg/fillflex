@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XML Database.-->
+<plcsettings>
+  <startvol>50,0</startvol>
+  <endvol>150,0</endvol>
+  <minflowThreshold>1,0</minflowThreshold>
+  <minflowTimeout>6</minflowTimeout>
+  <corr1>-3,5</corr1>
+  <corr2>-54,55</corr2>
+  <toutrefill>2250</toutrefill>
+  <corr3>-2,0</corr3>
+</plcsettings>
