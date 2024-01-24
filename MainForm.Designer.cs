@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.TrendsBtn = new System.Windows.Forms.Button();
@@ -367,6 +367,7 @@
             this.LoginBtn = new System.Windows.Forms.Button();
             this.CurUser = new System.Windows.Forms.Label();
             this.TrendsTimer = new System.Windows.Forms.Timer(this.components);
+            this.label71 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -459,6 +460,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label71);
             this.tabPage1.Controls.Add(this.TrendsBtn);
             this.tabPage1.Controls.Add(this.pictureBox5);
             this.tabPage1.Controls.Add(this.filltimelabel);
@@ -675,7 +677,7 @@
             this.label111.ForeColor = System.Drawing.Color.White;
             this.label111.Location = new System.Drawing.Point(1439, 638);
             this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(41, 16);
+            this.label111.Size = new System.Drawing.Size(40, 16);
             this.label111.TabIndex = 111;
             this.label111.Text = "100%";
             // 
@@ -687,7 +689,7 @@
             this.label109.ForeColor = System.Drawing.Color.White;
             this.label109.Location = new System.Drawing.Point(1255, 635);
             this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(34, 16);
+            this.label109.Size = new System.Drawing.Size(33, 16);
             this.label109.TabIndex = 110;
             this.label109.Text = "50%";
             // 
@@ -699,7 +701,7 @@
             this.label107.ForeColor = System.Drawing.Color.White;
             this.label107.Location = new System.Drawing.Point(1072, 635);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(27, 16);
+            this.label107.Size = new System.Drawing.Size(26, 16);
             this.label107.TabIndex = 109;
             this.label107.Text = "0%";
             // 
@@ -2522,7 +2524,7 @@
             this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label125.Location = new System.Drawing.Point(202, 234);
             this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(11, 16);
+            this.label125.Size = new System.Drawing.Size(10, 16);
             this.label125.TabIndex = 25;
             this.label125.Text = "|";
             // 
@@ -2543,7 +2545,7 @@
             this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label105.Location = new System.Drawing.Point(18, 87);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(75, 16);
+            this.label105.Size = new System.Drawing.Size(74, 16);
             this.label105.TabIndex = 23;
             this.label105.Text = "ID наливу:";
             // 
@@ -2564,7 +2566,7 @@
             this.lastId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastId.Location = new System.Drawing.Point(122, 54);
             this.lastId.Name = "lastId";
-            this.lastId.Size = new System.Drawing.Size(17, 16);
+            this.lastId.Size = new System.Drawing.Size(16, 16);
             this.lastId.TabIndex = 21;
             this.lastId.Text = "...";
             // 
@@ -2574,7 +2576,7 @@
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label25.Location = new System.Drawing.Point(16, 54);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(91, 16);
+            this.label25.Size = new System.Drawing.Size(90, 16);
             this.label25.TabIndex = 20;
             this.label25.Text = "№ завдання:";
             // 
@@ -2628,7 +2630,7 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label23.Location = new System.Drawing.Point(43, 321);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(178, 16);
+            this.label23.Size = new System.Drawing.Size(177, 16);
             this.label23.TabIndex = 14;
             this.label23.Text = "Управління завданням";
             // 
@@ -2638,7 +2640,7 @@
             this.lastMass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastMass.Location = new System.Drawing.Point(122, 263);
             this.lastMass.Name = "lastMass";
-            this.lastMass.Size = new System.Drawing.Size(17, 16);
+            this.lastMass.Size = new System.Drawing.Size(16, 16);
             this.lastMass.TabIndex = 13;
             this.lastMass.Text = "...";
             // 
@@ -2648,7 +2650,7 @@
             this.lastSetp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastSetp.Location = new System.Drawing.Point(122, 234);
             this.lastSetp.Name = "lastSetp";
-            this.lastSetp.Size = new System.Drawing.Size(17, 16);
+            this.lastSetp.Size = new System.Drawing.Size(16, 16);
             this.lastSetp.TabIndex = 12;
             this.lastSetp.Text = "...";
             // 
@@ -2658,7 +2660,7 @@
             this.lastSts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastSts.Location = new System.Drawing.Point(122, 205);
             this.lastSts.Name = "lastSts";
-            this.lastSts.Size = new System.Drawing.Size(17, 16);
+            this.lastSts.Size = new System.Drawing.Size(16, 16);
             this.lastSts.TabIndex = 11;
             this.lastSts.Text = "...";
             // 
@@ -2668,7 +2670,7 @@
             this.lastDtf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastDtf.Location = new System.Drawing.Point(122, 176);
             this.lastDtf.Name = "lastDtf";
-            this.lastDtf.Size = new System.Drawing.Size(17, 16);
+            this.lastDtf.Size = new System.Drawing.Size(16, 16);
             this.lastDtf.TabIndex = 10;
             this.lastDtf.Text = "...";
             // 
@@ -2678,7 +2680,7 @@
             this.lastDts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastDts.Location = new System.Drawing.Point(122, 147);
             this.lastDts.Name = "lastDts";
-            this.lastDts.Size = new System.Drawing.Size(17, 16);
+            this.lastDts.Size = new System.Drawing.Size(16, 16);
             this.lastDts.TabIndex = 9;
             this.lastDts.Text = "...";
             // 
@@ -2688,7 +2690,7 @@
             this.lastDtc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lastDtc.Location = new System.Drawing.Point(122, 118);
             this.lastDtc.Name = "lastDtc";
-            this.lastDtc.Size = new System.Drawing.Size(17, 16);
+            this.lastDtc.Size = new System.Drawing.Size(16, 16);
             this.lastDtc.TabIndex = 8;
             this.lastDtc.Text = "...";
             // 
@@ -2698,7 +2700,7 @@
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label22.Location = new System.Drawing.Point(16, 263);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(99, 16);
+            this.label22.Size = new System.Drawing.Size(98, 16);
             this.label22.TabIndex = 7;
             this.label22.Text = "Відпущено, кг:";
             // 
@@ -2708,7 +2710,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label21.Location = new System.Drawing.Point(16, 234);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(94, 16);
+            this.label21.Size = new System.Drawing.Size(93, 16);
             this.label21.TabIndex = 6;
             this.label21.Text = "Завдання, кг:";
             // 
@@ -2718,7 +2720,7 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label20.Location = new System.Drawing.Point(16, 205);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(57, 16);
+            this.label20.Size = new System.Drawing.Size(56, 16);
             this.label20.TabIndex = 5;
             this.label20.Text = "Статус:";
             // 
@@ -2728,7 +2730,7 @@
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label19.Location = new System.Drawing.Point(16, 176);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(85, 16);
+            this.label19.Size = new System.Drawing.Size(84, 16);
             this.label19.TabIndex = 4;
             this.label19.Text = "Завершено:";
             // 
@@ -2738,7 +2740,7 @@
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label18.Location = new System.Drawing.Point(16, 147);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(77, 16);
+            this.label18.Size = new System.Drawing.Size(76, 16);
             this.label18.TabIndex = 3;
             this.label18.Text = "Запущено:";
             // 
@@ -2748,7 +2750,7 @@
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label17.Location = new System.Drawing.Point(16, 118);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(75, 16);
+            this.label17.Size = new System.Drawing.Size(74, 16);
             this.label17.TabIndex = 2;
             this.label17.Text = "Створено:";
             // 
@@ -2758,7 +2760,7 @@
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label16.Location = new System.Drawing.Point(61, 10);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(146, 16);
+            this.label16.Size = new System.Drawing.Size(145, 16);
             this.label16.TabIndex = 1;
             this.label16.Text = "Останнє завдання";
             // 
@@ -3208,34 +3210,34 @@
             // 
             // TempChart
             // 
-            chartArea3.AxisX.MajorGrid.LineColor = System.Drawing.Color.DimGray;
-            chartArea3.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea3.AxisY.Interval = 20D;
-            chartArea3.AxisY.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
-            chartArea3.AxisY.MajorGrid.Interval = 10D;
-            chartArea3.AxisY.MajorGrid.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
-            chartArea3.AxisY.MajorGrid.LineColor = System.Drawing.Color.DimGray;
-            chartArea3.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea3.AxisY.MajorTickMark.Interval = 10D;
-            chartArea3.AxisY.MajorTickMark.IntervalOffset = 0D;
-            chartArea3.AxisY.MajorTickMark.IntervalOffsetType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Auto;
-            chartArea3.AxisY.MajorTickMark.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
-            chartArea3.AxisY.MajorTickMark.LineColor = System.Drawing.Color.DimGray;
-            chartArea3.Name = "ChartArea1";
-            this.TempChart.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.TempChart.Legends.Add(legend3);
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.DimGray;
+            chartArea1.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea1.AxisY.Interval = 20D;
+            chartArea1.AxisY.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
+            chartArea1.AxisY.MajorGrid.Interval = 10D;
+            chartArea1.AxisY.MajorGrid.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
+            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.DimGray;
+            chartArea1.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea1.AxisY.MajorTickMark.Interval = 10D;
+            chartArea1.AxisY.MajorTickMark.IntervalOffset = 0D;
+            chartArea1.AxisY.MajorTickMark.IntervalOffsetType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Auto;
+            chartArea1.AxisY.MajorTickMark.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Number;
+            chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.DimGray;
+            chartArea1.Name = "ChartArea1";
+            this.TempChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.TempChart.Legends.Add(legend1);
             this.TempChart.Location = new System.Drawing.Point(1085, 452);
             this.TempChart.Name = "TempChart";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Температура, °С";
-            this.TempChart.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Температура, °С";
+            this.TempChart.Series.Add(series1);
             this.TempChart.Size = new System.Drawing.Size(764, 352);
             this.TempChart.TabIndex = 243;
             this.TempChart.Text = "chart1";
-            title3.Name = "Температура, °С";
-            this.TempChart.Titles.Add(title3);
+            title1.Name = "Температура, °С";
+            this.TempChart.Titles.Add(title1);
             this.TempChart.GetToolTipText += new System.EventHandler<System.Windows.Forms.DataVisualization.Charting.ToolTipEventArgs>(this.GetToolTipText);
             // 
             // sett10
@@ -3300,7 +3302,7 @@
             this.linkWindow1.LinkColor = System.Drawing.Color.Black;
             this.linkWindow1.Location = new System.Drawing.Point(31, 779);
             this.linkWindow1.Name = "linkWindow1";
-            this.linkWindow1.Size = new System.Drawing.Size(54, 16);
+            this.linkWindow1.Size = new System.Drawing.Size(53, 16);
             this.linkWindow1.TabIndex = 236;
             this.linkWindow1.TabStop = true;
             this.linkWindow1.Text = "TestWin1";
@@ -3314,7 +3316,7 @@
             this.linkWindow2.LinkColor = System.Drawing.Color.Black;
             this.linkWindow2.Location = new System.Drawing.Point(31, 798);
             this.linkWindow2.Name = "linkWindow2";
-            this.linkWindow2.Size = new System.Drawing.Size(54, 16);
+            this.linkWindow2.Size = new System.Drawing.Size(53, 16);
             this.linkWindow2.TabIndex = 235;
             this.linkWindow2.TabStop = true;
             this.linkWindow2.Text = "TestWin2";
@@ -4103,37 +4105,37 @@
             this.dataTableView.AllowUserToAddRows = false;
             this.dataTableView.AllowUserToDeleteRows = false;
             this.dataTableView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataTableView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataTableView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataTableView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataTableView.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataTableView.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataTableView.Location = new System.Drawing.Point(27, 89);
             this.dataTableView.Name = "dataTableView";
             this.dataTableView.ReadOnly = true;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataTableView.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dataTableView.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataTableView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dataTableView.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataTableView.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataTableView.ShowCellErrors = false;
             this.dataTableView.ShowCellToolTips = false;
@@ -4159,7 +4161,7 @@
             this.TimeLabel.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TimeLabel.Location = new System.Drawing.Point(1585, 945);
             this.TimeLabel.Name = "TimeLabel";
-            this.TimeLabel.Size = new System.Drawing.Size(201, 44);
+            this.TimeLabel.Size = new System.Drawing.Size(200, 44);
             this.TimeLabel.TabIndex = 7;
             this.TimeLabel.Text = "TimeLabel";
             this.TimeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4233,6 +4235,16 @@
             // TrendsTimer
             // 
             this.TrendsTimer.Tick += new System.EventHandler(this.TrendsTimer_Tick);
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.BackColor = System.Drawing.Color.Gainsboro;
+            this.label71.Location = new System.Drawing.Point(524, 204);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(47, 22);
+            this.label71.TabIndex = 122;
+            this.label71.Text = "ПЛК";
             // 
             // MainForm
             // 
@@ -4666,6 +4678,7 @@
         private System.Windows.Forms.Timer TrendsTimer;
         private System.Windows.Forms.Label sett15;
         private System.Windows.Forms.Label label139;
+        private System.Windows.Forms.Label label71;
     }
 }
 
