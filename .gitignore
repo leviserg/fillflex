@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug/app.publish/FillFlex.exe
+/bin/Debug/FillFlex.application
+/bin/Debug/FillFlex.exe
+/bin/Debug/FillFlex.exe.manifest
+/bin/Debug/FillFlex.pdb
+/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+/obj/x86/Debug/FillFlex.application
+/obj/x86/Debug/FillFlex.csproj.AssemblyReference.cache
+/obj/x86/Debug/FillFlex.exe
+/obj/x86/Debug/FillFlex.exe.manifest
+/obj/x86/Debug/FillFlex.pdb
