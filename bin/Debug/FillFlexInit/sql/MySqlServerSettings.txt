@@ -1,0 +1,2 @@
+Create user in MySQLWorkBench with access flag %
+Open port 3306 for incoming connections in Firewall
